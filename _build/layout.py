@@ -66,7 +66,7 @@ UI = {
     "concept_long": L('Concept redesign. Not the <a href="https://tanandco.co.uk/" target="_blank" rel="noopener">official Tan &amp; Co website</a>.',
                       '概念設計展示，並非 <a href="https://tanandco.co.uk/" target="_blank" rel="noopener">陳智平會計師樓官方網站</a>。'),
     "concept_by": L("Designed by ", "設計："),
-    "concept_note": L("Unofficial redesign concept by", "非官方概念設計："),
+    "concept_note": L("Unofficial redesign concept by ", "非官方概念設計："),
     "since": L("Since 1975", "始於 1975"),
 }
 
@@ -215,7 +215,7 @@ def footer(lang, page):
     </div>
   </div>
   <div class="wrap footer-base">
-    <span>© <span data-year>2026</span> {r(UI['reg'], lang)}<br><span class="concept-note">{r(UI['concept_note'], lang)} <a class="u" href="https://ux-circles.com/professionals" target="_blank" rel="noopener">UX CIRCLES</a></span></span>
+    <span>© <span data-year>2026</span> {r(UI['reg'], lang)}<br><span class="concept-note">{r(UI['concept_note'], lang)}<a class="u" href="https://ux-circles.com/professionals" target="_blank" rel="noopener">UX CIRCLES</a></span></span>
     <a href="#main" class="u">{r(UI['top'], lang)} ↑</a>
   </div>
 </footer>
